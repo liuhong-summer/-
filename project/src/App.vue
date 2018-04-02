@@ -1,23 +1,11 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+  <div >
+    <div class="contain">
+      <span>位置</span>
+      <span>文科</span>
+      <span>分数</span>
+    </div>
   </div>
 </template>
-
 <script>
-export default {
-  name: 'App'
-}
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
