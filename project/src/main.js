@@ -4,7 +4,9 @@ import Vue from 'vue';
 import App from './App';
 import Element from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import '../static/css/common.css';
+import VueRouter from 'vue-router';
+Vue.use(VueRouter);
+// import '../static/css/common.css';
 // import router from './router'
 
 Vue.config.debug = true;
